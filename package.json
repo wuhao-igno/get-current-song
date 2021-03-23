@@ -1,0 +1,12 @@
+{
+  "name": "get-current-song",
+  "version": "1.0.0",
+  "description": "Get the currently listening music on mac, support QQ music and NetEase cloud music.",
+  "main": "index.js",
+  "author": "wuhao",
+  "license": "MIT",
+  "dependencies": {
+    "simple-plist": "^1.1.1",
+    "sqlite3": "^5.0.2"
+  }
+}
