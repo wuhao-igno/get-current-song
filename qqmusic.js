@@ -1,4 +1,5 @@
-const sqlite3 = require("sqlite3");
+import sqlite3 from "sqlite3";
+
 const DB_PATH = `${process.env.HOME}/Library/Containers/com.tencent.QQMusicMac/Data/Library/Application Support/QQMusicMac/qqmusic.sqlite`;
 
 const db = new sqlite3.Database(
